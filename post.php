@@ -28,4 +28,6 @@ mysqli_close($conn);
 <p><?php echo $post['Body']; ?></p>
 <a class="btn-default" href="<?php echo ROOT_URL ?>">Back</a>
   </body>
+  <hr>
+  <a class="btn-default" href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post['Id']; ?>">Edit</a>
 </html>
